@@ -58,9 +58,9 @@ Create a new Python file, for example, test.py, using a text editor or an integr
 
 ### 3.2. Add Python Code
 
-    Add the following Python code to test.py:
+ Add the following Python code to test.py:
 
-    ```python
+```python
     import subprocess
 
     def run_go_function(function_name):
@@ -90,7 +90,7 @@ Open a terminal and navigate to the directory containing test.py and the mytesta
 
 Run the Python script using the following command:
 
-    ```shell
+```shell
     python3 test.py
 The Python script will execute GolangFunction1 from the Go binary and print its output.
 
@@ -99,7 +99,7 @@ The Python script will execute GolangFunction1 from the Go binary and print its 
 
 If you encounter permission issues, ensure that the Go binary (mytestapp) has execute permission. You can use the chmod command to set the execute permission:
 
-    ```shell
+```shell
     chmod +x mytestapp
     
 If you encounter issues with function execution, double-check the function name in both your Go code and Python script to ensure they match.

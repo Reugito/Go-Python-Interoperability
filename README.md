@@ -19,18 +19,18 @@ Before proceeding, make sure you have the following installed on your system:
 
 #### 1.2. Add the following Go code to `test.go`:
 
-```go
-package main
+    ```go
+    package main
 
-import "fmt"
+    import "fmt"
 
-func GolangFunction1() {
-    fmt.Println("Running Golang Function 1")
-}
+    func GolangFunction1() {
+        fmt.Println("Running Golang Function 1")
+    }
 
-func main() {
-    fmt.Println("Hello from main function")
-    GolangFunction1()
-}
+    func main() {
+        fmt.Println("Hello from main function")
+        GolangFunction1()
+    }
 
 ### 2. Create a New Go File

@@ -42,8 +42,11 @@ Now, let's compile the Go file into an executable binary.
     ```shell
     cd /path/to/your/directory
 #### 2.2. Compile the Go code
-### Run the following command to compile the Go code into an executable binary named mytestapp:
+
+Run the following command to compile the Go code into an executable binary named mytestapp:
+
     ```go build -o mytestapp test.go
+    
 The -o flag specifies the output file name (mytestapp in this case), and test.go is the source file.
 
 #### 3. Create a Python Script

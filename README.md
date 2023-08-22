@@ -32,5 +32,7 @@ Before proceeding, make sure you have the following installed on your system:
         fmt.Println("Hello from main function")
         GolangFunction1()
     }
+### 1. Create a New Go File
+    
 
 ### 2. Create a New Go File

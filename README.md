@@ -60,23 +60,23 @@ Create a new Python file, for example, test.py, using a text editor or an integr
 
  Add the following Python code to test.py:
 
-```python
-    import subprocess
+    ```python
+            import subprocess
 
-    def run_go_function(function_name):
-        try:
-            # Execute the Go binary and capture its output
-            result = subprocess.check_output(['./mytestapp', function_name], stderr=subprocess.STDOUT, text=True)
+            def run_go_function(function_name):
+                try:
+                    # Execute the Go binary and capture its output
+                    result = subprocess.check_output(['./mytestapp', function_name], stderr=subprocess.STDOUT, text=True)
 
-            # Print the output
-            print(result)
-        except subprocess.CalledProcessError as e:
-            # Handle any errors that occur during execution
-            print(f"Error: {e}")
+                    # Print the output
+                    print(result)
+                except subprocess.CalledProcessError as e:
+                    # Handle any errors that occur during execution
+                    print(f"Error: {e}")
 
-    if __name__ == "__main__":
-        # Call your Go functions here
-        run_go_function("GolangFunction1")
+            if __name__ == "__main__":
+                # Call your Go functions here
+                run_go_function("GolangFunction1")
 
 #### 4. Run the Python Script
 

@@ -19,7 +19,7 @@ Before proceeding, make sure you have the following installed on your system:
 
 #### 1.2. Add the following Go code to `test.go`:
 
-    ```go
+    ```
     package main
 
     import "fmt"
@@ -39,8 +39,9 @@ Now, let's compile the Go file into an executable binary.
 
 #### 2.1. Open a terminal and navigate to the directory containing test.go.
 
-    ```shell
-    cd /path/to/your/directory
+    shell ```
+            cd /path/to/your/directory
+            
 #### 2.2. Compile the Go code
 
 Run the following command to compile the Go code into an executable binary named mytestapp:

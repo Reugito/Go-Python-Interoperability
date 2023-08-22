@@ -53,9 +53,11 @@ The -o flag specifies the output file name (mytestapp in this case), and test.go
     Now, we'll create a Python script that will call the Go function.
 
 ### 3.1. Create a New Python File
-    Create a new Python file, for example, test.py, using a text editor or an integrated development environment         (IDE).
+
+Create a new Python file, for example, test.py, using a text editor or an integrated development environment         (IDE).
 
 ### 3.2. Add Python Code
+
     Add the following Python code to test.py:
 
     ```python
@@ -77,12 +79,15 @@ The -o flag specifies the output file name (mytestapp in this case), and test.go
         run_go_function("GolangFunction1")
 
 #### 4. Run the Python Script
+
 Now, let's run the Python script to call the Go function.
 
 ### 4.1. Open a Terminal
+
 Open a terminal and navigate to the directory containing test.py and the mytestapp binary.
 
 ### 4.2. Run the Python Script
+
 Run the Python script using the following command:
 
     ```shell
@@ -91,6 +96,7 @@ The Python script will execute GolangFunction1 from the Go binary and print its 
 
 
 #### Troubleshooting
+
 If you encounter permission issues, ensure that the Go binary (mytestapp) has execute permission. You can use the chmod command to set the execute permission:
 
     ```shell

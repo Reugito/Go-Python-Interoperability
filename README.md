@@ -66,7 +66,7 @@ Create a new Python file, for example, test.py, using a text editor or an integr
     def run_go_function(function_name):
         try:
             # Execute the Go binary and capture its output
-            result = subprocess.check_output(['./mytestapp', function_name], stderr=subprocess.STDOUT, text=True)
+            result = subprocess.run(['./mytestapp', function_name], stderr=subprocess.STDOUT, text=True)
 
             # Print the output
             print(result)
